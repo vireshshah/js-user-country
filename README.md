@@ -3,6 +3,9 @@
 [![Dependency Status](https://david-dm.org/vireshshah/js-user-country.svg)](https://david-dm.org/vireshshah/js-cache-tags) [![NPM version](https://badge.fury.io/js/js-user-country.svg)](http://badge.fury.io/js/js-cache-tags) [![Pull requests](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://www.npmjs.com/package/robert) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/greeeg/robert/blob/master/LICENSE) 
 
 
+This library does not use any kind of Geo APIs. Pure browser based solution to detect user's country
+based on user's timezone. Detects country from user's timezone in browser.
+
 # Install
 
 ```bash
@@ -16,8 +19,11 @@ Or just include `js-user-country.min.js` file.
 ## Initialize:
 
 ```js
-const userCountry = require("js-user-country");
-console.log(userCountry());
+import getUserCountry from "js-user-country";
+
+console.log(getUserCountry().id); // Prints 'CA'
+console.log(getUserCountry().name); // Prints 'Canada'
+console.log(getUserCountry().timezones);
 
 /*
 Prints:

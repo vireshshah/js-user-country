@@ -1,23 +1,19 @@
 {
   "name": "js-user-country",
-  "description": "Get user's country for Javascript/NodeJS projects.",
+  "description": "Get user's country for Javascript projects.",
   "keywords": [
     "javascript user country",
-    "browser country",
+    "browser country js",
     "user country javascript",
-    "js user country",
-    "js cache tags",
-    "node user country tags"
+    "js user country"
   ],
   "tags": [
     "javascript user country",
-    "browser country",
+    "browser country js",
     "user country javascript",
-    "js user country",
-    "js cache tags",
-    "node user country tags"
+    "js user country"
   ],
-  "version": "0.0.5",
+  "version": "1.0.0",
   "author": "Viresh Shah <vireshshah@gmail.com>",
   "maintainers": [
     {
