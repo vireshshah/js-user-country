@@ -1,0 +1,5 @@
+node_modules
+.vscode
+coverage
+dist/report.html
+.coveralls.yml
