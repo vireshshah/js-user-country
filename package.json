@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "countries-and-timezones": "2.0.5",
-    "moment-timezone": "0.5.28"
+    "moment-timezone": "0.5.35"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
